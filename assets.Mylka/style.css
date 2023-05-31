@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin-top: auto;
+    box-sizing: border-box;
+}
+.fotografo{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.jn{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    left: 10px;
+}
+.caixa{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 2px solid black;
+    padding: 2rem;
+    margin-right: 40rem;
+    margin-left: 40rem;
+    
+}
+main{
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+}
+/* .grid-container {
+    display: grid;
+    grid-template-rows: 80px 200px; */
+.item1{grid-area: Foto1;}
+.item2{grid-area: Foto2;}
+.item3{grid-area: Foto3;}
+.item4{grid-area: Foto4;}
+
+.imagens{
+    display: grid;
+    grid-template-areas: 
+    'Foto1 Foto1 Foto2'
+    'Foto3 Foto4 Foto2';
+
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+    padding: 1rem;
+}
+
+.m1{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    /* padding: 1rem; */
+}
+.m2{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    /* padding: 2rem; */
+}
+/* .fim{
+    padding: 10rem;
+} */
+.svg{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: auto;
+    
+}
